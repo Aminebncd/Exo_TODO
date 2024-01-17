@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo list</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <h1>Todo list</h1>
+
+    <div id="todo">
+      <div id="count">
+        <button id="btn">Ajoutez une tâche</button>
+        <br />
+        <span id="taskCount">1 tâche</span>
+        <!-- <span id="cardCount">Nombre de tâches: 1</span> -->
+        <div id="todoCards">
+          <div class="todoCard">
+            <textarea
+              class="task"
+              maxlength="200"
+              cols="20"
+              rows="15"
+            ></textarea>
+            <span class="delBtn"><i class="far fa-trash-alt"></i></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
